@@ -53,6 +53,7 @@ class Email:
         email_message = email.message_from_string(raw_email)
         mail.logout()
 
+
 if __name__ == '__main__':
     my_email = Email(
         login='login@gmail.com',
